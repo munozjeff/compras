@@ -1,0 +1,50 @@
+.lista-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  .lista-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .lista-card p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .lista-productos {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lista-productos li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  
+  .lista-productos li.producto-completado {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .boton-agregar-producto {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton-agregar-producto:hover {
+    background-color: #45a049;
+  }
+  

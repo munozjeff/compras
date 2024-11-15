@@ -1,0 +1,22 @@
+.pagina-principal {
+    padding: 20px;
+  }
+  
+  .lista-tarjetas {
+    margin-top: 20px;
+  }
+  
+  .boton-agregar-lista {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .boton-agregar-lista:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,74 @@
+/* Register.css */
+
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-container label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .register-container input[type="text"],
+  .register-container input[type="email"],
+  .register-container input[type="date"],
+  .register-container input[type="file"],
+  .register-container select {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .register-container input[type="text"]:focus,
+  .register-container input[type="email"]:focus,
+  .register-container input[type="date"]:focus,
+  .register-container input[type="file"]:focus,
+  .register-container select:focus {
+    border-color: #1f618d;
+  }
+  
+  .register-container .error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .register-container button {
+    padding: 0.8rem;
+    background-color: #1f618d;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #145a86;
+  }
+  
