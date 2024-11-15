@@ -31,7 +31,7 @@
   .modal-content input, .modal-content select {
     width: 100%;
     padding: 8px;
-    margin-bottom: 15px;
+    margin: 15px 0px;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
@@ -55,5 +55,30 @@
     border-radius: 4px;
     cursor: pointer;
     margin-top: 10px;
+  }
+  .sitio-select-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado entre el select y el botón */
+  }
+  
+  .boton-agregar-sitio {
+    background-color: #1f618d;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .boton-agregar-sitio:hover {
+    background-color: #154c79;
   }
   

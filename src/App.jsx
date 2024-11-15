@@ -6,17 +6,16 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import Register from './components/Register/Register';
 import PrivateRoute from './utils/privateRoute';
+import Spinner from './components/Spinner/Spinner';
 
 
 function App() {
   const [count, setCount] = useState(0)
-//   const { user } = useSelector(state => state.auth);
-// useEffect(()=>{  
-//   console.log(user);
-  
-// },[user])
+  const { loading: authLoading } = useSelector(state => state.auth);
+  const { loading: dataLoading } = useSelector(state => state.data);
   return (
     <>
+      {authLoading || dataLoading && <Spinner />}
       <Routes>
         {/* <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
